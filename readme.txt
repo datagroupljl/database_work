@@ -1,8 +1,8 @@
-������ϵͳʹ��python���Ա�д��ʹ��python3.5���ҵ���jieba�ִʵİ�����ʵ���Ϻ�������ѧ���ż���
+本检索系统使用python语言编写，使用python3.5并且导入jieba分词的包最终实现上海理工大学新闻检索
 
-С���Ա����������
-���橣�����   �����沿����Ҫ��python3.5�Ļ����£�����requests����
-����ΰ�������ݽṹ
-�����꣺�����ӿ�
+小组成员及负责任务：
+刘姗姗：爬虫   （爬虫部分需要在python3.5的环境下，导入requests包）
+贾星伟：建数据结构
+刘桂汝：检索接口
 
-�����հ��ļ���������1.py �� ͼƬ�ļ� a.gif b.gif c.gif ��jia.txt�ļ�����ͬһ���ļ���
+将最终版文件：完整版1.py 与 图片文件 a.gif b.gif c.gif 和jia.txt文件放在同一个文件夹
