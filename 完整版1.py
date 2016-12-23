@@ -142,6 +142,7 @@ def b2():
     root=Tk()
     root.title("上海理工大学新闻检索")
     #a是文本框，用于输入要检索的文字，按下回车或者单击Button按钮可以接受用户输入
+   
     a=Entry(root,width=40,validate="focusout",validatecommand=compare)
     a.pack(side=LEFT,padx=40,pady=60)
     #s=a.get()
@@ -156,29 +157,34 @@ def b3():
 
 
 root=Tk()
-root.title("上海理工大学新闻检索")
+root.title("上海理工大学新闻")
 
 #插入一个图片
 photo = PhotoImage(file="logo.gif")
-Label(root,image=photo).grid(row=0,column=0,rowspan=3,padx=15,pady=10)
+Label(root,image=photo).grid(row=0,column=0,rowspan=4,padx=15,pady=10)
 #标签的属性
-Label(root,text="欢迎进入本系统",font=("华康少女字体",30),fg="red").grid(row=0,column=1,columnspan=3,padx=10,pady=10)
-Label(root,text="请输入您要检索的内容：").grid(row=1,column=1)
+Label(root,text="欢迎进入本系统",font=("华康少女字体",30),fg="red").grid(row=0,column=1,columnspan=2,padx=10,pady=10)
+#Label(root,text="请输入您要检索的内容：").grid(row=1,column=1)
 #文本框
-Entry(root).grid(row=1,column=2)
+#Entry(root).grid(row=1,column=2)
 
 ###
-
-a = Button(root,text="查看所有内容",width=10,command=b1).grid(row=2,column=1,sticky=W,columnspan=2,padx=10,pady=5)
+photo1 = PhotoImage(file="a.gif")
+Label(root,image=photo1).grid(row=1,column=1)
+a = Button(root,text="查看所有内容",width=10,command=b1).grid(row=1,column=2,columnspan=2,padx=10,pady=5)
 
 ###a=Button(root,text="查看所有",width=40,command=b1)
 ###a.pack(padx=220,pady=60)
 ###
-b = Button(root,text="检索",command=b2).grid(row=1,column=3,pady=5)
+photo2 = PhotoImage(file="b.gif")
+Label(root,image=photo2).grid(row=2,column=1)
+b = Button(root,text="检索",width=10,command=b2).grid(row=2,column=2,columnspan=2,padx=10,pady=5)
 ###b=Button(root,text="检索页面",width=40,command=b2)
 ###b.pack(padx=220,pady=60)
 ###
-c = Button(root,text="退出",width=10,command=root.quit).grid(row=2,column=3,sticky=E,columnspan=2,padx=10,pady=5)
+photo3 = PhotoImage(file="c.gif")
+Label(root,image=photo3).grid(row=3,column=1)
+c = Button(root,text="退出",width=10,command=root.quit).grid(row=3,column=2,columnspan=2,padx=10,pady=5)
 ###c=Button(root,text="退出",width=15,command=root.quit)
 ###c.pack(padx=220,pady=60)
 
