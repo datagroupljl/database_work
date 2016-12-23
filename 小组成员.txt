@@ -1,0 +1,8 @@
+高级数据库系统与实现
+第三组
+https://github.com/datagroupljl/database_work
+小组成员：
+贾星伟 167710519  KevinJia2016
+刘桂汝 162570483  datagroupljl 
+刘姗姗 162570480  33Dorothy
+
